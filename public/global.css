@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: #FFFAFF;
   margin: 0;
   padding: 0;
@@ -6,11 +9,6 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   background: #0B4F6C;
 }
-html,
-body {
-  height: 100%;
-}
-
 input,
 button,
 select,
